@@ -1,0 +1,11 @@
+/home/snyderjosephd/nss/workspace/csharp/exercises/Calculator/bin/Debug/netcoreapp3.0/Calculator
+/home/snyderjosephd/nss/workspace/csharp/exercises/Calculator/bin/Debug/netcoreapp3.0/Calculator.deps.json
+/home/snyderjosephd/nss/workspace/csharp/exercises/Calculator/bin/Debug/netcoreapp3.0/Calculator.runtimeconfig.json
+/home/snyderjosephd/nss/workspace/csharp/exercises/Calculator/bin/Debug/netcoreapp3.0/Calculator.runtimeconfig.dev.json
+/home/snyderjosephd/nss/workspace/csharp/exercises/Calculator/bin/Debug/netcoreapp3.0/Calculator.dll
+/home/snyderjosephd/nss/workspace/csharp/exercises/Calculator/bin/Debug/netcoreapp3.0/Calculator.pdb
+/home/snyderjosephd/nss/workspace/csharp/exercises/Calculator/obj/Debug/netcoreapp3.0/Calculator.csprojAssemblyReference.cache
+/home/snyderjosephd/nss/workspace/csharp/exercises/Calculator/obj/Debug/netcoreapp3.0/Calculator.AssemblyInfoInputs.cache
+/home/snyderjosephd/nss/workspace/csharp/exercises/Calculator/obj/Debug/netcoreapp3.0/Calculator.AssemblyInfo.cs
+/home/snyderjosephd/nss/workspace/csharp/exercises/Calculator/obj/Debug/netcoreapp3.0/Calculator.dll
+/home/snyderjosephd/nss/workspace/csharp/exercises/Calculator/obj/Debug/netcoreapp3.0/Calculator.pdb
