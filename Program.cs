@@ -20,6 +20,7 @@ namespace Calculator
                 Console.WriteLine("4) Divide two numbers");
                 Console.WriteLine("5) Square");
                 Console.WriteLine("6) Square root");
+                Console.WriteLine("7) Advanced");
                 Console.WriteLine("0) Exit");
                 Console.WriteLine();
                 Console.Write("> ");
@@ -47,7 +48,60 @@ namespace Calculator
                         Console.WriteLine($"The square root of {num1} is {result}.");
                     }
 
-                    if (userSelection != 0 && userSelection != 5 && userSelection != 6)
+                    // if (userSelection == 7)
+                    // {
+                    //     Console.Write("Please enter a simple math formula: _");
+                    //     string userInput = Console.ReadLine();
+                    //     string [] splitInput = userInput.Split(" ");
+                    //     num1 = int.Parse(splitInput[0]);
+                    //     num2 = int.Parse(splitInput[2]);
+                        
+                    //     if (splitInput[1] == "+")
+                    //     {
+                    //         int result = calculator.AddNums(num1, num2);
+                    //         Console.WriteLine($"The result of adding {num1} and {num2} is {result}.");                              }
+                    //     }
+
+                    // }
+                    if (userSelection == 7)
+                    {
+                        Console.Write("Please enter a simple math formula: _");
+                        string userInput = Console.ReadLine();
+                        string [] splitInput = userInput.Split(" ");
+                        num1 = int.Parse(splitInput[0]);
+                        num2 = int.Parse(splitInput[2]);
+
+                        if (splitInput[1] == "+")
+                        {
+                            int result = calculator.AddNums(num1, num2);
+                            Console.WriteLine($"The result of adding {num1} and {num2} is {result}.");
+                        }
+                        else if (splitInput[1] == "-")
+                        {
+                            int result = calculator.AddNums(num1, num2);
+                            Console.WriteLine($"The result of subtracting {num2} from {num1} is {result}.");
+                        }
+                        else if (splitInput[1] == "*")
+                        {
+                            int result = calculator.MultiplyNums(num1, num2);
+                            Console.WriteLine($"The result of multiplying {num1} and {num2} is {result}.");
+                        }
+                        else if (splitInput[1] == "/")
+                        {
+                            try
+                            {
+                                int result = calculator.DivideNums(num1, num2);
+                                Console.WriteLine($"The result of dividing {num1} by {num2} is {result}.");
+                            }
+                            catch (DivideByZeroException)
+                            {
+                                Console.WriteLine($"Unable to divide by zero.");
+                            }
+                        }
+                    }
+                        
+
+                    if (userSelection != 0 && userSelection != 5 && userSelection != 6 && userSelection != 7)
                     {
                         Console.Write("Please enter two numbers with a space in between: _");
                         string userInput = Console.ReadLine();

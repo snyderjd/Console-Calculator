@@ -30,9 +30,5 @@ namespace Calculator
         {
             return Math.Sqrt(num1);
         }
-        // public int SquareRoot(int num1)
-        // {
-        //     return 
-        // }
     }
 }
